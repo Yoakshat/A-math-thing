@@ -195,7 +195,7 @@ class Triangle:
         #all points that satisfied/all points that worked + satisfied
         print(str(float(self.pointsThatWork / self.totalPoints) * 100.0) + "%")
 
-t = Triangle(137, 28, 251, 98, 77, 165)
+t = Triangle(0, 0, 100, 0, 50, 87)
 t.randomPoint(100)
 t.probability()
 turtle.mainloop()
