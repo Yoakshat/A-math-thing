@@ -187,10 +187,6 @@ class Triangle:
         #sees if this satisfys the triangle inequality 
         #draws a possible triangle that can be formed
 
-    def plot(self):
-        #plots all poins that you've found to satisfy triangle inequality - graph
-        print("Ooh... visualization")
-
     def probability(self):
         #all points that satisfied/all points that worked + satisfied
         print(str(float(self.pointsThatWork / self.totalPoints) * 100.0) + "%")
